@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form br {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.bookTable {
+    margin-inline: auto;
+    margin-block: 20px;
+    width: fit-content;
+    text-align: center;
+    border:solid 1px black;
+    border-radius: 5px;
+}
+
+.bookTable td {
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav *{
+    padding-right: 5px;
+}
